@@ -7,10 +7,13 @@
     "build": "tsc",
     "dev:tokenStandard": "ts-node src/example_tokenStandard.ts",
     "start:tokenStandard": "tsc && node build/example_tokenStandard.js",
+    "dev:auctionHouse": "ts-node src/example_auctionHouse.ts",
+    "start:auctionHouse": "tsc && node build/example_auctionHouse.js",
     "test": "jest"
   },
   "dependencies": {
     "@metaplex-foundation/beet": "^0.1.0",
+    "@metaplex-foundation/mpl-auction-house": "^1.2.0",
     "@metaplex-foundation/mpl-token-metadata": "^2.1.1",
     "@solana/spl-token": "^0.2.0",
     "@solana/web3.js": "^1.37.1",
